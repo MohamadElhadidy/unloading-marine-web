@@ -1,0 +1,190 @@
+.list {
+  position: absolute;
+  width: 80vw;
+  height: 25vw;
+  right: 10vw;
+  top: 45vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list ul {
+  list-style: none;
+}
+.list ul li {
+  background-color: #0202027d;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 2.5rem;
+  transition: all 0.5s ease-out;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-out;
+}
+a:hover {
+  color: rgb(245, 140, 55);
+}
+.list ul li:hover {
+  transform: scale(1.1);
+}
+.header_reports {
+  position: absolute;
+  width: 30vw;
+  right: 35vw;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px -15px #000000;
+  background-color: #d0cdcd4d;
+}
+
+.header_reports p {
+  padding: 5px;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.9rem;
+  transition: all 0.5s ease-out;
+}
+
+.vessel__detail {
+  position: absolute;
+  width: 30vw;
+  right: 35vw;
+  text-align: center;
+  padding: 5px;
+}
+
+.vessel__detail td {
+  border: 1px solid #000;
+  font-size: 1.8rem;
+}
+
+.vessel__detail td {
+  background-color: #0202027d;
+  color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .list {
+    width: 90vw !important;
+    right: 5vw !important;
+  }
+  .list ul li {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .list {
+    width: 95vw !important;
+    right: 2.5vw !important;
+  }
+  .list ul li {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .list {
+    width: 90vw !important;
+    right: 0vw !important;
+  }
+  .list ul li {
+    font-size: 1.6rem !important;
+    /* padding: 15px !important; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .list {
+    width: 85vw !important;
+    right: 2vw !important;
+    display: inline-block;
+  }
+}
+
+/* @media only screen and (min-device-width: 330px) and (max-device-width: 480px) {
+  .list {
+    width: 100vw !important;
+    right: -5vw !important;
+  }
+} */
+@media only screen and (min-device-width: 200px) and (max-device-width: 329px) {
+  /* .list {
+    width: 95vw !important;
+    left: 2.5vw !important;
+    display: block !important;
+  }
+  .list ul li {
+    font-size: 1.2rem;
+  } */
+}
+
+@media only screen and (min-device-height: 600px) and (max-device-height: 760px) {
+  /* .list {
+    width: 100vw !important;
+    left: 0vw !important;
+  }
+  .list ul li {
+    font-size: 1.8rem;
+  } */
+}
+/* vessel table*/
+@media only screen and (max-width: 1790px) {
+  .vessel__detail {
+    width: 35vw !important;
+    right: 32.5vw !important;
+  }
+}
+@media only screen and (max-width: 1580px) {
+  .vessel__detail {
+    width: 40vw !important;
+    right: 30vw !important;
+  }
+}
+@media only screen and (max-width: 1380px) {
+  .vessel__detail {
+    width: 45vw !important;
+    right: 27.5vw !important;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .vessel__detail {
+    width: 60vw !important;
+    right: 20vw !important;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .vessel__detail {
+    width: 70vw !important;
+    right: 15vw !important;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .vessel__detail {
+    width: 80vw !important;
+    right: 10vw !important;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .vessel__detail {
+    width: 95vw !important;
+    right: 2.5vw !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .vessel__detail {
+    width: 100vw !important;
+    right: 0vw !important;
+  }
+  .vessel__detail td {
+    font-size: 1.6rem !important;
+  }
+}

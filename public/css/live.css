@@ -1,0 +1,85 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  top: 30vh;
+}
+table {
+  width: 30vw;
+  text-align: center;
+  display: inline-table;
+  top: 5vh;
+  margin-right: 2.5vw;
+  padding: 1.5px;
+  font-size: 1.8rem;
+}
+
+table:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
+.small td,
+.small th {
+  border: 1px solid #89d1e7;
+}
+
+.small td {
+  background-color: rgba(255, 255, 255, 0.87);
+}
+.small .qnt {
+  color: blue;
+  font-size: 24px;
+  height: 25px;
+  background-color: #10ff00c2;
+  text-shadow: 0px 1px rgb(0, 0, 0);
+}
+.small .moves {
+  color: blue;
+  font-size: 24px;
+  height: 25px;
+  background-color: #10ff00c2;
+  text-shadow: 2px 1px 2px rgb(255 249 249);
+}
+
+.blue__detail .head {
+  background-color: #000000d0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1150px) {
+  .small {
+    width: 40vw;
+    margin-bottom: 1vw;
+    margin-right: 6.5vw !important;
+  }
+  .wrapper {
+    top: 35vh !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .small {
+    width: 80vw;
+    margin-right: 10vw !important;
+    margin-bottom: 1.5vw !important;
+  }
+      table td {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .small {
+    width: 90vw;
+    margin-right: 5vw !important;
+    margin-bottom: 2vw !important;
+  }
+  .wrapper {
+    top: 25vh !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .small {
+    width: 95vw;
+    margin-right: 2.5vw !important;
+    margin-bottom: 2vw !important;
+  }
+}

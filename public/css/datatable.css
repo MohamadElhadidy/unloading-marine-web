@@ -1,0 +1,344 @@
+.wrapper {
+  background: #02020263 !important;
+  position: absolute !important;
+  height: 75vh !important;
+  top: 15vh !important;
+  width: 95vw !important;
+  right: 3vw !important;
+  padding: 15px;
+  color: rgb(0, 0, 0) !important;
+  font-size: 2rem;
+  text-align: center;
+  overflow: scroll;
+  z-index: 2;
+}
+.title {
+  font-size: 1.8rem !important;
+}
+label,
+#table_info,
+#table_previous,
+#table_next {
+  color: #fff;
+}
+.wrapper table tr,
+table tr td {
+  border: 1px solid #000;
+  text-align: center !important;
+}
+.wrapper table th {
+  background: rgb(24, 143, 190);
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center !important;
+}
+.wrapper table tbody td {
+  font-size: 1.7rem;
+}
+.wrapper table {
+  width: 90vw;
+  top: 10vh;
+}
+.table_paginate {
+  background: #fff !important;
+  color: #fff !important;
+}
+input {
+  width: 25vw;
+  height: 5vh;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.dataTables_length select {
+  font-size: 1.9rem !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.dataTables_length select option {
+  color: rgb(0, 0, 0) !important;
+}
+.dt-button {
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  font-size: 1.7rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.5s ease-out;
+}
+.dt-buttons {
+  margin-right: 20vw;
+  width: 50vw;
+}
+
+.dt-buttons {
+  position: absolute;
+}
+
+.dt-button:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.dataTables_processing {
+  background-color: rgb(6, 47, 114) !important;
+}
+.edit-button,
+.end-button,
+.delete-button {
+  text-decoration: none !important;
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  padding: 3px;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 23px;
+}
+.edit-button {
+  background-color: rgba(21, 122, 161, 0.842);
+  transition: all 0.5s ease-out;
+}
+
+.edit-button:hover {
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(36, 119, 15) !important;
+  color: rgb(6, 47, 114);
+}
+
+.delete-button {
+  background-color: rgba(21, 122, 161, 0.842);
+  transition: all 0.5s ease-out;
+}
+
+.delete-button:hover {
+  background-color: rgb(197, 54, 54) !important;
+  color: rgb(6, 47, 114);
+}
+
+.end-button {
+  background-color: rgba(21, 122, 161, 0.842);
+  transition: all 0.5s ease-out;
+}
+
+.end-button:hover {
+  background-color: rgba(191, 75, 18, 0.84) !important;
+  color: rgb(6, 47, 114);
+}
+.model {
+  background: #000 !important;
+  position: absolute !important;
+  height: 100vh !important;
+  top: 0vh !important;
+  width: 100vw !important;
+  right: 0vw !important;
+  padding: 10px;
+  color: #fff;
+  font-size: 2rem !important;
+  text-align: center;
+  z-index: 4;
+  transition: opacity 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  align-content: center;
+}
+.add_model {
+  visibility: visible;
+  opacity: 1;
+}
+form {
+  height: 50vh;
+  top: 15vh;
+  width: 70vw;
+  right: 15vw;
+  position: absolute;
+  background: #25699300 !important;
+  color: #fff;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  padding: 20px 25px;
+  width: 25vw !important;
+  height: 2vh !important;
+  color: rgb(255, 255, 255);
+  right: 0vw;
+  top: 10vh;
+  margin: 5px !important;
+  border: #ffffff solid 2px;
+  background: transparent;
+  border-radius: 25px;
+}
+textarea {
+  padding: 20px 25px;
+  color: rgb(255, 255, 255);
+  right: 0vw;
+  top: 10vh;
+  margin: 5px !important;
+  border: #ffffff solid 2px;
+  background: transparent;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 25px !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  color: #fff;
+}
+.select2 {
+  border-radius: 25px !important;
+  padding: 10px 25px;
+  width: 26vw !important;
+  color: rgb(255, 255, 255) !important;
+  border: #ffffff solid 2px !important;
+  background-color: #fff;
+  text-align: center;
+  background: transparent;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #fff !important;
+  line-height: 20px !important;
+}
+.select2 .selection {
+  width: 30vw !important;
+  left: 37.5vw;
+  text-align: center !important;
+  background: transparent !important ;
+}
+.select2-container--default .select2-selection--single {
+  background: transparent !important;
+  color: #000;
+}
+.select2-selection {
+  border: none !important;
+}
+.fa-times-circle {
+  cursor: pointer;
+  float: right;
+  transition: all 0.5s ease-out;
+  font-size: 3rem !important;
+  margin-top: -25px;
+}
+.fa-times-circle:hover {
+  transform: scale(2);
+}
+
+form .dt-button {
+  padding: 15px 25px;
+  margin-top: 25px;
+}
+.wrapper p {
+  color: #fff;
+  margin-bottom: -25px;
+  margin-top: -1px;
+  font-size: 2.5rem;
+}
+.paginate_button a {
+  color: #000 !important;
+}
+
+.select2-results__option {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.select2-search input {
+  color: #000;
+  text-align: center;
+}
+.error_input {
+  border: #ca2626 solid 2px !important;
+}
+select.input-sm {
+  height: 40px !important;
+}
+.select2-search input {
+  width: 100% !important;
+}
+@media only screen and (max-width: 1160px) {
+  select.input-sm {
+    height: 40px !important;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .dt-button {
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 40vw !important;
+  }
+  form {
+    align-items: center;
+  }
+  .buttons-excel,
+  .buttons-print {
+    display: none;
+  }
+  .pagination {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 60vw !important;
+  }
+  .dt-buttons {
+    position: relative !important;
+  }
+  input {
+    width: 70vw !important;
+  }
+  form {
+    height: 55vh !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 50vw !important;
+  }
+  form {
+    right: 5vw !important;
+    width: 90vw !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  form input[type="text"],
+  form input[type="password"] {
+    display: inline-block !important;
+    width: 75vw !important;
+    right: 5vw !important;
+  }
+  .select2 {
+    display: inline-block !important;
+    width: 75vw !important;
+  }
+}

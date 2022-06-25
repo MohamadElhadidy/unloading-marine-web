@@ -1,0 +1,126 @@
+.header p {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: rgba(11, 11, 11, 0.45);
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1px;
+}
+.header {
+  position: absolute;
+  width: 50vw;
+  height: 10vw;
+  left: 25vw;
+  top: 10vh;
+  display: block;
+  text-align: center;
+}
+.header img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: turn 17s infinite linear;
+}
+
+@media only screen and (max-width: 1810px) {
+  .header p {
+    width: 30vw !important;
+  }
+  .header {
+    width: 60vw !important;
+    left: 20vw !important;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .header {
+    width: 65vw !important;
+    left: 17.5vw !important;
+  }
+  .header p {
+    width: 35vw !important;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .header {
+    width: 70vw !important;
+    left: 15vw !important;
+  }
+  .header p {
+    width: 40vw !important;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .header {
+    width: 75vw !important;
+    left: 12.5vw !important;
+  }
+  .header p {
+    width: 45vw !important;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .header {
+    width: 80vw !important;
+    left: 10vw !important;
+  }
+  .header p {
+    width: 50vw !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .header {
+    width: 85vw !important;
+    left: 7.5vw !important;
+  }
+  .header img {
+    width: 120px !important;
+  }
+
+  .header p {
+    width: 55vw !important;
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .header {
+    width: 90vw !important;
+    left: 5vw !important;
+  }
+  .header p {
+    width: 60vw !important;
+    font-size: 1.2rem !important;
+  }
+}
+@media only screen and (max-height: 845px) {
+  .header img {
+    width: 100px !important;
+  }
+  .header p {
+    font-size: 1.5rem !important;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .header p {
+    display: none;
+  }
+  .header {
+    top: 3vw !important;
+  }
+  .header img {
+    width: 120px !important;
+  }
+}
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

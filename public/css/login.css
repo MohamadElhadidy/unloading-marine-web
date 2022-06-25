@@ -1,0 +1,196 @@
+form {
+  position: absolute;
+  margin-top: 40vh;
+  width: 30vw;
+  right: 35vw;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  border-radius: 1px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  padding: 15px 25px;
+  width: 25vw;
+  height: 2vh;
+  margin: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 1px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  border: #ffffff solid 2px;
+  background: #ffffffc2;
+}
+a {
+  position: absolute;
+  padding: 7px;
+  color: black;
+  margin-right: -3vw;
+  margin-top: 7px;
+}
+/* form input[type="text"] ,form input[type="password"]{
+    padding: 15px 25px;
+    width: 25vw ;
+    height: 2vh ;
+    margin: 5px ;
+    font-size: 2rem ;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    margin: 5px ;
+    border: #ffffff solid 2px ;
+    background: transparent;
+} */
+.dt-button {
+  padding: 10px 10px;
+  background-color: #000000fd;
+  color: #fff;
+  font-size: 1.7rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: all 0.5s ease-out;
+}
+.dt-buttons {
+  margin-right: 25vw !important;
+  width: 50vw;
+}
+
+.dt-buttons {
+  position: absolute;
+}
+
+.dt-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 47, 114);
+  transform: scale(1.1);
+}
+form .dt-button {
+  padding: 15px 25px;
+  margin-top: 25px;
+}
+.select2-results__option {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.select2-search input {
+  color: #000;
+  text-align: center;
+}
+.select2 {
+  border-radius: 1px !important;
+  padding: 15px 25px;
+  width: 26vw !important;
+  color: rgb(255, 255, 255) !important;
+  border: #ffffff solid 2px !important;
+  background-color: #fff;
+  height: 5vh !important;
+  text-align: center;
+  background: transparent;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #fff !important;
+  line-height: 25px !important;
+}
+.select2 .selection {
+  width: 30vw !important;
+  left: 37.5vw;
+  text-align: center !important;
+  background: transparent !important ;
+}
+.select2-container--default .select2-selection--single {
+  background: transparent !important;
+  color: #000;
+}
+.select2-selection {
+  border: none !important;
+}
+
+.error_input {
+  border: #ca2626 solid 2px !important;
+}
+@media only screen and (max-width: 1810px) {
+  form {
+    width: 40vw !important;
+    right: 30vw !important;
+  }
+  a {
+    margin-right: -5vw;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  form {
+    width: 50vw !important;
+    right: 25vw !important;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  form {
+    width: 60vw !important;
+    right: 20vw !important;
+  }
+  form input[type="text"],
+  form input[type="password"] {
+    width: 35vw !important;
+  }
+  a {
+    margin-right: -9vw;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .form {
+    width: 70vw !important;
+    right: 15vw !important;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  form {
+    width: 90vw !important;
+    right: 5vw !important;
+  }
+  form input[type="text"],
+  form input[type="password"] {
+    width: 45vw !important;
+  }
+  a {
+    margin-right: -11vw;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .jconfirm .jconfirm-box {
+    width: 100vw !important;
+  }
+  form {
+    width: 100vw !important;
+    right: 0vw !important;
+  }
+  .jconfirm-title {
+    font-size: 1.8rem !important;
+  }
+  form input[type="text"],
+  form input[type="password"] {
+    width: 55vw !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  form input[type="text"],
+  form input[type="password"] {
+    width: 70vw !important;
+  }
+  a {
+    margin-right: -12vw;
+  }
+}

@@ -1,0 +1,333 @@
+.wrapper {
+  background: #02020263 !important;
+  position: absolute !important;
+  height: 80vh;
+  top: 15vh !important;
+  width: 90vw;
+  right: 3vw !important;
+  padding: 15px;
+  color: rgb(0, 0, 0) !important;
+  font-size: 2rem;
+  text-align: center;
+  overflow: scroll;
+}
+.title {
+  font-size: 1.8rem;
+}
+label,
+#table_info,
+#table_previous,
+#table_next {
+  color: #fff !important;
+}
+table tr,
+table tr td {
+  border: 1px solid #000;
+}
+table th {
+  background: rgb(24, 143, 190);
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: center !important;
+}
+table td {
+  font-size: 1.7rem;
+}
+
+table {
+  width: 90vw;
+  top: 20vh;
+}
+.table_paginate {
+  background: #fff !important;
+  color: #fff !important;
+}
+.dataTables_filter input {
+  width: 25vw;
+  height: 5vh !important;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 1.9rem !important;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 20px !important;
+  border: 2px solid #fff !important;
+}
+
+.dataTables_length select {
+  font-size: 1.7rem !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.dataTables_length select option {
+  color: rgb(0, 0, 0) !important;
+}
+.dt-button {
+  padding: 10px 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.7rem !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.5s ease-out;
+}
+
+.cost-button {
+  background-color: #e35c0b !important;
+}
+.dt-buttons {
+  margin-right: 20vw;
+  width: 50vw;
+}
+
+.dt-buttons {
+  position: absolute;
+}
+
+.dt-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 47, 114);
+  transform: scale(1.1);
+}
+
+.dataTables_processing {
+  background-color: rgb(6, 47, 114) !important;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  margin-top: -1.5vh;
+}
+.paginate_button a {
+  color: rgb(0, 0, 0) !important;
+}
+.cars__count {
+  width: 40vw !important;
+  margin-right: 25vw !important;
+  text-align: center !important;
+}
+
+.cars__count th {
+  border: 1px solid #000 !important;
+  background-color: #fff8dc !important;
+  color: #660033 !important;
+}
+
+.cars__count span {
+  color: #ff1a1a !important;
+}
+
+form .dt-button {
+  padding: 15px 25px;
+  margin-top: 25px;
+}
+
+.select2-results__option {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 990px) {
+  .dt-button {
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 40vw !important;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  .buttons-excel,
+  .buttons-print {
+    display: none;
+  }
+
+  .pagination {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 60vw !important;
+  }
+
+  .dt-buttons {
+    position: relative !important;
+  }
+
+  input {
+    width: 70vw !important;
+  }
+
+  form {
+    height: 55vh !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  form input[type="text"],
+  form input[type="password"],
+  .select2 {
+    display: inline-block !important;
+    width: 50vw !important;
+  }
+
+  form {
+    right: 5vw !important;
+    width: 90vw !important;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  form input[type="text"],
+  form input[type="password"] {
+    display: inline-block !important;
+    width: 75vw !important;
+    right: 5vw !important;
+  }
+
+  .select2 {
+    display: inline-block !important;
+    width: 75vw !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .dt-buttons {
+    position: relative !important;
+  }
+  .cars__count {
+    width: 60vw !important;
+    margin-right: 20vw !important;
+  }
+  .wrapper {
+    width: 100vw !important;
+    right: 0vw !important;
+    height: 85vh !important;
+  }
+  .pagination {
+    font-size: 1.5rem !important;
+  }
+  .dataTables_length label {
+    font-size: 1.5rem !important;
+  }
+  .dataTables_length select {
+    font-size: 1.5rem !important;
+  }
+  .dataTable {
+    width: 100vw !important;
+    right: 0vh !important ;
+  }
+  .dataTables_wrapper {
+    margin-right: -15px !important;
+  }
+
+  input {
+    width: 75vw !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  input {
+    width: 75vw !important;
+  }
+  .dt-buttons {
+    position: relative !important;
+  }
+  .wrapper {
+    width: 100vw !important;
+    right: 0vw !important;
+    height: 85vh !important;
+  }
+  .pagination {
+    font-size: 1.5rem !important;
+  }
+  .dataTables_length label {
+    font-size: 1.5rem !important;
+  }
+  .dataTables_length select {
+    font-size: 1.5rem !important;
+  }
+  .dataTable table {
+    width: 100vw !important;
+    right: 0vh !important ;
+  }
+  .dataTables_wrapper {
+    margin-right: -15px !important;
+  }
+  .cars__count {
+    width: 80vw !important;
+    margin-right: 10vw !important;
+  }
+}
+
+@media print {
+  #headers{
+      visibility: visible !important;
+            opacity:1 !important;
+}
+   table th{
+                font-size:1rem;
+            }
+             table td{
+                font-size:1rem;
+            }
+            table.dataTable tbody th, table.dataTable tbody td{
+              padding: 0  !important;
+              font-size:1rem;
+                     }
+                     table.dataTable thead th, table.dataTable thead td{
+              font-size:1rem;
+              padding: 0 !important;
+              background:  #000080 !important;
+                color: #fff !important;
+                border:  1px solid rgb(255, 255, 255) !important;
+                  }
+                .vessel__detail th {
+                        background-color: #000 !important;
+                        color: #fff !important;
+                    }
+                      .headerss th{
+            background-color: #aa2929 !important;
+            }    
+                 .vessel__detail th    span{
+                        color: #fff !important;
+                }
+                .cars__counts th {
+  background-color: #FFF8DC !important;
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+   font-size:1rem;
+              padding: 0 !important;
+              background:  #000080 !important;
+                color: #fff !important;
+                 border:  none ;
+} 
+table.dataTable tfoot th.yes, table.dataTable tfoot td.yes {
+               border:  1px solid rgb(255, 255, 255) !important;
+
+}      
+  
+}
+table.dataTable tfoot th, table.dataTable tfoot td {
+  background: aqua;
+} 
+table.dataTable tfoot th.noo, table.dataTable tfoot td.noo {
+                border:  none !important;
+}     
